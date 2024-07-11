@@ -50,7 +50,6 @@ export default function WorkExperience() {
             <p className="text-sm text-gray-400">{job.duration}</p>
             <p className="mt-2 text-md">{job.description}</p>
             <div className="mt-2">
-              <h5 className="text-md font-semibold">Key Tasks:</h5>
               <ul className="list-disc list-inside text-md">
                 {job.tasks.map((task, i) => (
                   <li key={i} className="text-left">{task}</li>
